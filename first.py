@@ -56,15 +56,29 @@
 # else:
 #     print(f"I haven't watched {add_movie} yet")
 
-number = 7 
+# number = 7 
 
-user_input = input("Enter 'y' if you would like to play: ").lower()
+# user_input = input("Enter 'y' if you would like to play: ").lower()
 
-if user_input == "y":
-    user_number = int(input("Guess our number: "))
-    if user_number == number: 
-        print("You guessed correctly!")
-    elif number - user_number in (1, -1):
-        print("You were off bu one.")
-    else:
-        print("Sorry, it's wrong!")
+# if user_input == "y":
+#     user_number = int(input("Guess our number: "))
+#     if user_number == number: 
+#         print("You guessed correctly!")
+#     elif number - user_number in (1, -1):
+#         print("You were off bu one.")
+#     else:
+#         print("Sorry, it's wrong!")
+#########################################################################
+# List Comprehension
+# numbers = [1, 3, 5]
+# doubled = [x * 2 for x in numbers]
+# # OR 
+# # for num in numbers:
+# #     doubled.append(num * 2)
+
+# print(doubled)
+
+friends = ["Rolf", "Sam", "Samantha", "Saurabh", "Jen"]
+start_s = [ item for item in friends if item.startswith('S')]
+
+print(start_s)
