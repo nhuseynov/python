@@ -78,7 +78,39 @@
 
 # print(doubled)
 
-friends = ["Rolf", "Sam", "Samantha", "Saurabh", "Jen"]
-start_s = [ item for item in friends if item.startswith('S')]
+# friends = ["Rolf", "Sam", "Samantha", "Saurabh", "Jen"]
+# start_s = [ item for item in friends if item.startswith('S')]
 
-print(start_s)
+# print(start_s)
+#########################################################################
+# Dictionaries
+# friend_ages = {"Rolf": 24, "Adam": 30, "Anna": 27} 
+# print(friend_ages["Rolf"])
+# print(friend_ages)
+
+# friends = [
+#     {"name": "Rolf", "age": 24},
+#     {"name": "Adam", "age": 30},
+#     {"name": "Anna", "age": 27},
+# ]
+# print(friends[1]["name"])
+
+student_attendance = {"Rolf": 96, "Bob": 80, "Anna": 100}
+
+# for student in student_attendance:
+#     print(f"{student}: {student_attendance[student]}")
+
+# # OR 
+
+# for student, attendance in student_attendance.items():
+#     print(f"{student}: {attendance}")
+
+user_input = input("Write a name of student: ")
+if user_input in student_attendance:
+    print(f"{user_input}: {student_attendance[user_input]}")
+else:
+    print(f"{user_input} is not a student in this class")
+
+attendance_values = student_attendance.values()
+
+print(sum(attendance_values) / len(attendance_values))
