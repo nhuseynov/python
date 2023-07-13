@@ -114,3 +114,11 @@
 # attendance_values = student_attendance.values()
 
 # print(sum(attendance_values) / len(attendance_values))
+
+x, y = 5, 11
+print(x, y)
+
+student_attendance = {"Rolf": 96, "Bob": 80, "Anna": 100}
+
+for student, attendance in student_attendance.items():
+    print(f"{student}: {attendance}")
