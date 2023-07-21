@@ -71,7 +71,7 @@
 #########################################################################
 # List Comprehension
 # numbers = [1, 3, 5]
-# doubled = [x * 2 for x in numbers]
+# doubled = [x * 2 for x in numbers] 
 # # OR 
 # # for num in numbers:
 # #     doubled.append(num * 2)
@@ -79,7 +79,7 @@
 # print(doubled)
 
 # friends = ["Rolf", "Sam", "Samantha", "Saurabh", "Jen"]
-# start_s = [ item for item in friends if item.startswith('S')]
+# start_s = [ item for item in friends if item.startswith('S')]  # for item in friends if item.startwith('S') print item 
 
 # print(start_s)
 #########################################################################
@@ -115,10 +115,59 @@
 
 # print(sum(attendance_values) / len(attendance_values))
 
-x, y = 5, 11
-print(x, y)
+# x, y = 5, 11
+# print(x, y)
 
-student_attendance = {"Rolf": 96, "Bob": 80, "Anna": 100}
+# student_attendance = {"Rolf": 96, "Bob": 80, "Anna": 100}
 
-for student, attendance in student_attendance.items():
-    print(f"{student}: {attendance}")
+# for student, attendance in student_attendance.items():
+#     print(f"{student}: {attendance}")
+##############################################################################################################################
+# Functions in Python
+
+# def hello():
+#     print("Hello!")
+
+# hello()
+
+# def user_age_in_seconds():
+#     age_seconds = user_age * 365 * 24 * 60 * 60
+#     print(f"Your age is seconds is {age_seconds} seconds.")
+
+# def user_age_in_minutes():
+#     age_seconds = user_age * 365 * 24 * 60 
+#     print(f"Your age is seconds is {age_seconds} minutes.")
+
+# while True: 
+#     user_age = int(input("Enter your age: "))
+#     choise_value = input("Value to convert - mon, day, min, sec?: ")
+#     if choise_value == "min":
+#         user_age_in_minutes()
+#     elif choise_value == "sec":
+#         user_age_in_seconds()
+#     else:
+#         print("Goodbye")
+#         break
+
+# def add(x, y):
+#     result = x + y 
+#     print(result)
+
+# add(5, 3)
+
+# def say_hello(name, surname):
+#     print(f"Hello, {name} {surname}")
+
+# say_hello("Bob", "Smith")
+
+# def divide(dividend, divisor):
+#     if divisor != 0: 
+#         print(dividend / divisor)
+#     else:
+#         print("You fucking BadAss!! I told you not to write fucking Zero!")
+
+# user_dividend = int(input("Write a dividend: "))
+# user_divisor = int(input("Write a divisor, but not 0: "))
+
+# divide(user_dividend, user_divisor)
+# RETURN VALUES IN FUNCTIONS 
