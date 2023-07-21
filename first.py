@@ -170,4 +170,56 @@
 # user_divisor = int(input("Write a divisor, but not 0: "))
 
 # divide(user_dividend, user_divisor)
-# RETURN VALUES IN FUNCTIONS 
+# RETURN VALUES IN FUNCTIONS  
+
+# def my_function(x, y):
+#     return x * y  # return means that this function returns value to the function that called it, not just displays it 
+
+# my_function(10, 100) 
+
+##############################################################################################################################################3
+# Lambda function
+
+# def add(x, y):
+#     return x + y 
+
+# print(add(5 ,7))   # OR rewrite this function as lambda
+
+# print((lambda x, y: x + y)(5, 7))
+
+# def double(x):
+#     return x * 2 
+
+# sequence = [1, 3, 6, 90]
+# doubled = [double(x) for x in sequence]
+# # OR 
+# doubled = [(lambda x: x * 2)(x) for x in sequence] # lambda function
+# print(doubled)
+
+# Dictionary Comprehensions 
+
+# users = [
+#     (0, "Bob", "password"),
+#     (1, "Rolf", "bob123"),
+#     (2, "Jose", "longp4assword"),
+#     (3, "username", "1234"),
+# ]
+
+# username_mapping = {user[1]: user for user in users}
+# print(username_mapping)
+
+student = {'name': 'Jose', 'school': 'Computing', 'grades': (66, 77, 88)}
+
+def average_grade(data):
+    grades = data['grades']
+    return sum(grades) / len(grades) 
+
+def average_grade_all_student(student_list):
+    total = 0
+    count = 0
+    for student in student.list:
+        total = total + sum(student['grades'])
+    return total / count 
+
+
+
