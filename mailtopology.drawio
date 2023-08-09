@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T11:10:58.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="d-rSUJNcF-Z2fhSDjAWq" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T11:57:44.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RZhJhdaHb65qt5p46qJI" version="21.6.6" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -50,8 +50,8 @@
         <mxCell id="eRxnyLezfXE1zsq6xe2w-13" value="VIP: 178.76.1.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="455" y="170" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eRxnyLezfXE1zsq6xe2w-14" value="HA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="490" y="230" width="40" height="30" as="geometry" />
+        <mxCell id="eRxnyLezfXE1zsq6xe2w-14" value="HeartBeat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="230" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eRxnyLezfXE1zsq6xe2w-30" value="Mail Server" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="25" y="695" width="60" height="60" as="geometry" />
